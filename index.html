@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>فایل گیر، مستقیم کننده لینک‌ها</title>
+  <link rel="stylesheet" href="css/tailwind.css">
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</head>
+<body>
+  <div class="flex w-full">
+    <div class="w-auto h-screen sticky top-0 shadow-lg flex-none flex flex-col">
+      <div class="py-5 hidden md:block">
+        <img src="assets/filegir-logo.png" alt="" class="w-2/3 mx-auto">
+      </div>
+      <div class="flex md:mt-2">
+        <div class="md:hidden w-12 h-screen flex flex-col space-y-3 items-center">
+          <ul>
+            <li><a href=""><ion-icon name="cloud-download-outline" size="large"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="person-outline" size="large"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="folder-outline" size="large"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="wallet-outline"  size="large"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="server-outline"  size="large"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="help-outline"  size="large"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="call-outline"  size="large"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="caret-back-circle-outline"  size="large"></ion-icon></a></li>
+          </ul>
+        </div>
+        <div class="hidden md:block absolute md:relative bg-white w-72 h-screen flex flex-col">
+          <ul class="w-full">
+            <li>
+              <a href="#">
+                <ion-icon name="cloud-download-outline" size="large"></ion-icon>
+                <span>دانلود</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="person-outline" size="large"></ion-icon>
+                <span>مشخصات کاربری</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="folder-outline" size="large"></ion-icon>
+                <span>مدیریت فایل‌ها</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="wallet-outline"  size="large"></ion-icon>
+                <span>خرید حجم</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="server-outline"  size="large"></ion-icon>
+                <span>هاست‌ها</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="help-outline"  size="large"></ion-icon>
+                <span>راهنما</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="call-outline"  size="large"></ion-icon>
+                <span>پشتیبانی</span>
+              </a>
+            </li>
+            <li class="md:hidden">
+              <a href="#">
+                <ion-icon name="caret-forward-circle-outline"  size="large"></ion-icon>
+                <span>بستن منو</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p></p>
+    </div>
+    <div class="w-full flex flex-col items-center overscroll-y-contain  space-y-3 mx-2">
+      <img src="assets/filegir-logo.png" alt="" class="w-32 block md:hidden">
+      <div class="w-full lg:w-10/12 h-36 bg-pink-700 px-2 md:px-0"></div>
+    </div>
+  </div>
+</body>
+</html>

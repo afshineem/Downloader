@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li {
+        @apply px-2 py-3 text-gray-500 hover:bg-gray-50 hover:text-black border-r-4 border-gray-200 hover:border-blue-600 transition-all duration-150
+    }
+    li a {
+        @apply space-x-reverse space-x-3 flex items-center
+    }
+}
